@@ -6211,6 +6211,25 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         <entryLink import="true" name="Target Designation" hidden="false" id="95d9-62e8-c887-811c" type="selectionEntry" targetId="8467-8a35-b9e1-0ce9"/>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Stat Modifications" id="91e6-b505-a8ec-2cb8" hidden="false" flatten="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="3a40-f9fa-c293-cfd7"/>
+        <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="8381-6b9b-a3ec-683c"/>
+        <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="dcd3-897f-c3e3-b3a8">
+          <modifiers>
+            <modifier type="set" value="11" field="508a-47c0-adf3-10ad">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8749-37ea-6f9e-0824" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="508a-47c0-adf3-10ad"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="00a0-d3b2-9887-8b87"/>
+      </selectionEntries>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="b036-a7e7-db3f-d23b" name="Power Activation (Captain)" publicationId="205d-6ed1-3ffa-ebbb" page="19" hidden="false">
