@@ -772,6 +772,13 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="870d-7d2b-9017-6253" name="Mule" publicationId="460c-b731-33cf-903c" page="18" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -804,6 +811,13 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="edc8-3053-99c7-59c8" name="Q-Bot" publicationId="460c-b731-33cf-903c" page="19" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -826,6 +840,13 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="ec79-99ee-b2ac-4037" name="Ravaged" publicationId="460c-b731-33cf-903c" page="20" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -853,6 +874,13 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="acf7-1340-bcfb-7676" name="Ravaged Trooper" publicationId="460c-b731-33cf-903c" page="21" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -880,6 +908,13 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry id="413f-5fcd-3d6e-120c" name="Trophy-Taker" publicationId="460c-b731-33cf-903c" page="21" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -908,6 +943,13 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Weapon Maintenance" hidden="false" id="18fd-991a-2036-08e4" publicationId="460c-b731-33cf-903c" page="15" collective="false">
       <constraints>
@@ -947,6 +989,13 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Adrenaline Surge" hidden="false" id="bcd5-c83c-dffb-f466" collective="false">
       <constraints>
@@ -1191,6 +1240,13 @@ This power may only be used against a soldier carrying a loot token. That figure
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Break Lock" hidden="false" id="1a2e-a493-f224-957d" collective="false">
       <constraints>
@@ -1475,6 +1531,13 @@ This power may only be used while a figure is in combat. The figure may make one
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Control Animal" hidden="false" id="6c47-e153-4fe4-c40e" collective="false">
       <constraints>
@@ -1644,6 +1707,13 @@ The target member of the crew receives +1 Shoot for the duration of the game. Th
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Create Robot" hidden="false" id="f862-beaa-b8f0-bd7b" collective="false">
       <constraints>
@@ -2276,6 +2346,13 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Inspiring" hidden="false" id="1b9f-c549-9360-26a9" publicationId="460c-b731-33cf-903c" page="14" collective="false">
       <constraints>
@@ -2315,6 +2392,13 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Investments" hidden="false" id="9d15-9bac-f874-401c" publicationId="460c-b731-33cf-903c" page="15" collective="false">
       <constraints>
@@ -2354,6 +2438,13 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Life Leach" hidden="false" id="0d2e-cc82-9839-2a56" collective="false">
       <constraints>
@@ -3009,6 +3100,13 @@ The activator gains one of the following traits of its choice: Amphibious, Burro
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="lessThan" value="1" field="selections" scope="roster" childId="9ca5-18d4-61a3-7c86" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Suggestion" hidden="false" id="4385-3e86-720d-89db" collective="false">
       <constraints>
@@ -3370,6 +3468,27 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Rules Sources" hidden="false" id="8c1b-15a4-a60b-c476">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Stargrave Core Book" hidden="false" id="b1e6-9068-590c-abea">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f19d-d450-34ef-6449-min"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f19d-d450-34ef-6449-max"/>
+          </constraints>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Expansions" hidden="false" id="9ca5-18d4-61a3-7c86">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2ebe-05c4-ca32-5500"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink name="Configuration" hidden="false" id="8ecf-d1b4-5e10-ed75" targetId="9ddb-8d0f-b99a-39a5" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="535b-9e29-eeda-f917" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6268,4 +6387,7 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
       </characteristics>
     </profile>
   </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Rules Sources" hidden="false" id="b62c-2e62-2adc-2b08" type="selectionEntry" targetId="8c1b-15a4-a60b-c476"/>
+  </entryLinks>
 </gameSystem>
