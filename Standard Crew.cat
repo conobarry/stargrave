@@ -2839,6 +2839,7 @@
         <entryLink id="ed85-ae6b-86bd-3509" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
+    <entryLink import="true" name="Captain" hidden="false" id="b76a-7608-094b-3578" type="selectionEntry" targetId="7f65-2090-40b1-44c5"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade">
@@ -2846,6 +2847,40 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="7f65-2090-40b1-44c5">
+      <entryLinks>
+        <entryLink import="true" name="Level" hidden="false" id="c89b-46d4-bb97-44b9" collective="false" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="6c02-531d-1771-099d" collective="false" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint type="max" value="6" field="ef24-ff59-caa4-b0e8" scope="parent" shared="true" id="5425-a44b-a643-2089" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Powers" hidden="false" id="0d45-1b4a-3ddd-aa49" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="a260-d1c4-4fc0-9940" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Power Activation (Captain)" id="f532-12ee-3df5-f358" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
+          </infoLinks>
+        </entryLink>
+        <entryLink import="true" name="Background" hidden="false" id="ff3d-b926-a8cf-2005" type="selectionEntryGroup" targetId="5fc6-db78-cf0e-2271"/>
+      </entryLinks>
+      <profiles>
+        <profile name="Captain" typeId="e0cd-0aa7-dba3-2af3" typeName="Model" hidden="false" id="7870-1674-5cea-5a73">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink name="Captain" hidden="false" id="f72e-e157-e4b9-95fb" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+      </categoryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2865,6 +2900,45 @@
         </entryLink>
         <entryLink id="4e39-0cf5-8ae1-b5fc" name="Shotgun" hidden="false" collective="false" import="true" targetId="1075-090d-31e0-ad87" type="selectionEntry"/>
       </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Background" id="5fc6-db78-cf0e-2271" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5"/>
+        <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
+          <modifiers>
+            <modifier type="set" value="Tekker" field="annotation" scope="model" affects="profiles.Model"/>
+            <modifier type="increment" value="2" field="cd10-7835-de9f-ba64" scope="model" affects="profiles.Model"/>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="b30d-e3a0-7baa-5c3e">
+              <modifiers>
+                <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5" scope="model" affects="profiles.Model"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="c27c-933b-faf0-e8fd">
+              <modifiers>
+                <modifier type="increment" value="1" field="453a-8ce6-f448-bb37" scope="model" affects="profiles.Model"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="0590-69e5-c6c8-df32">
+              <modifiers>
+                <modifier type="increment" value="1" field="d603-9472-1d68-663e" scope="model" affects="profiles.Model"/>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="d735-4829-34ff-e0cc">
+              <modifiers>
+                <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="model" affects="profiles.Model"/>
+              </modifiers>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9fa7-ac5c-e04c-9dbe"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4"/>
+      </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
