@@ -2906,7 +2906,7 @@
         <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5"/>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <modifiers>
-            <modifier type="set" value="Tekker" field="annotation" scope="model" affects="self.entries.profiles.Model" join=""/>
+            <modifier type="set" value="Tekker" field="annotation" scope="model-or-unit" affects="self.entries.profiles.Model" join=""/>
             <modifier type="increment" value="2" field="cd10-7835-de9f-ba64" scope="model" affects="profiles.Model"/>
           </modifiers>
           <selectionEntryGroups>
@@ -2914,7 +2914,7 @@
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="0590-69e5-c6c8-df32">
                   <modifiers>
-                    <modifier type="increment" value="1" field="d603-9472-1d68-663e" scope="parent" affects="profiles.Model"/>
+                    <modifier type="increment" value="1" field="d603-9472-1d68-663e" scope="model" affects="self.entries.model.profiles.Model"/>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="c27c-933b-faf0-e8fd">
@@ -2924,12 +2924,12 @@
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="d735-4829-34ff-e0cc">
                   <modifiers>
-                    <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="parent" affects="model.profiles.Model"/>
+                    <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="model-or-unit" affects="self.entries.profiles.Model"/>
                   </modifiers>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="b30d-e3a0-7baa-5c3e">
                   <modifiers>
-                    <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5" scope="model" affects="model.profiles.Model"/>
+                    <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5" scope="model" affects="self.entries.profiles.Model"/>
                   </modifiers>
                 </selectionEntry>
               </selectionEntries>
