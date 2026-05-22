@@ -206,7 +206,14 @@
           </constraints>
         </entryLink>
         <entryLink id="883d-b85e-69aa-131a" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
-        <entryLink import="true" name="Powers" hidden="false" id="17ba-ae96-03d1-4920" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4"/>
+        <entryLink import="true" name="Powers" hidden="false" id="17ba-ae96-03d1-4920" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
+          <constraints>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="9540-5cb7-3744-37a3" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Power Activation (Captain)" id="6c30-81e9-d87f-91b6" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
+          </infoLinks>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
