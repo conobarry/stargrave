@@ -200,20 +200,13 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b7e3-6bda-ceff-29e3" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
-          <constraints>
-            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2386-dffe-0b3d-ffdb" type="max"/>
-          </constraints>
-          <infoLinks>
-            <infoLink id="12df-db81-9278-7ee9" name="Power Activation (Captain)" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
-          </infoLinks>
-        </entryLink>
         <entryLink id="91ff-2eb5-6dfd-1da8" name="Equipment" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
           <constraints>
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb06-eb3b-8c17-e34e" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="883d-b85e-69aa-131a" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
+        <entryLink import="true" name="Powers" hidden="false" id="17ba-ae96-03d1-4920" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4"/>
       </entryLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
