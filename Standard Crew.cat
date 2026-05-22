@@ -2912,32 +2912,34 @@
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="b30d-e3a0-7baa-5c3e">
               <modifiers>
-                <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5" scope="model" affects="profiles.Model"/>
+                <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5" scope="parent" affects="profiles.Model"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="c27c-933b-faf0-e8fd">
               <modifiers>
-                <modifier type="increment" value="1" field="453a-8ce6-f448-bb37" scope="model" affects="profiles.Model"/>
+                <modifier type="increment" value="1" field="453a-8ce6-f448-bb37" scope="parent" affects="profiles.Model"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="0590-69e5-c6c8-df32">
               <modifiers>
-                <modifier type="increment" value="1" field="d603-9472-1d68-663e" scope="model" affects="profiles.Model"/>
+                <modifier type="increment" value="1" field="d603-9472-1d68-663e" scope="parent" affects="profiles.Model"/>
               </modifiers>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="d735-4829-34ff-e0cc">
               <modifiers>
-                <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="model" affects="profiles.Model"/>
+                <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="parent" affects="profiles.Model"/>
               </modifiers>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9fa7-ac5c-e04c-9dbe"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9fa7-ac5c-e04c-9dbe-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="9fa7-ac5c-e04c-9dbe-max"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-max"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
