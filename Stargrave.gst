@@ -6489,19 +6489,19 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
         </modifier>
         <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
         <modifier type="increment" value="4" field="d1a5-3245-2f90-1ffe">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
           <modifiers>
             <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
@@ -6513,12 +6513,12 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
           <modifiers>
             <modifier type="set" value="Veteran" field="annotation">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="Tekker" field="annotation">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -6562,19 +6562,19 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
         </modifier>
         <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
         <modifier type="increment" value="4" field="d1a5-3245-2f90-1ffe">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
         </modifier>
       </modifiers>
       <modifierGroups>
         <modifierGroup type="and">
           <conditions>
-            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
           </conditions>
           <modifiers>
             <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
@@ -6586,12 +6586,12 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
           <modifiers>
             <modifier type="set" value="Veteran" field="annotation">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="Tekker" field="annotation">
               <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>

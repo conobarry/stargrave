@@ -2840,6 +2840,7 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Captain" hidden="false" id="b76a-7608-094b-3578" type="selectionEntry" targetId="7f65-2090-40b1-44c5"/>
+    <entryLink import="true" name="First Mate" hidden="false" id="b4a2-d017-9c57-d279" type="selectionEntry" targetId="a3d0-23dd-cf1b-dc74"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade">
