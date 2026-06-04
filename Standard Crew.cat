@@ -2873,61 +2873,32 @@
         </entryLink>
         <entryLink import="true" name="Background" hidden="false" id="ff3d-b926-a8cf-2005" type="selectionEntryGroup" targetId="5fc6-db78-cf0e-2271"/>
       </entryLinks>
-      <profiles>
-        <profile name="Captain" typeId="e0cd-0aa7-dba3-2af3" typeName="Model" hidden="false" id="7870-1674-5cea-5a73">
-          <characteristics>
-            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
-            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
-            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
-            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
-            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
-            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="94f8-c306-6bda-9e91" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="e32a-b55b-e9a6-7c82" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="d603-9472-1d68-663e">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="b709-903e-3383-de0e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" value="1" field="453a-8ce6-f448-bb37">
-              <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ae23-fd2c-bb7a-80ec" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
-              </repeats>
-            </modifier>
-          </modifiers>
-        </profile>
-      </profiles>
       <categoryLinks>
         <categoryLink name="Captain" hidden="false" id="f72e-e157-e4b9-95fb" targetId="16bf-5402-ac6a-dab3" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false">
-          <selectionEntryGroups>
-            <selectionEntryGroup name="Level Up" id="b21e-0a99-2047-eaeb" hidden="false">
-              <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26" collapsible="true">
-                  <entryLinks>
-                    <entryLink import="true" name="Stat Modification" hidden="false" id="9d40-dc31-27ed-d700" type="selectionEntryGroup" targetId="7828-4591-91c5-3c80" flatten="true"/>
-                  </entryLinks>
-                </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
-                <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266"/>
-              </selectionEntries>
-              <constraints>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5"/>
-              </constraints>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Level Up" hidden="false" id="cd75-770b-7103-5216">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Level Up Options" id="b21e-0a99-2047-eaeb" hidden="false" flatten="true">
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26" collapsible="true">
+                      <entryLinks>
+                        <entryLink import="true" name="Stat Modification" hidden="false" id="9d40-dc31-27ed-d700" type="selectionEntryGroup" targetId="7828-4591-91c5-3c80" flatten="true"/>
+                      </entryLinks>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
+                    <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266"/>
+                  </selectionEntries>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-min"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-max"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -2955,15 +2926,32 @@
         <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5">
           <modifiers>
             <modifier type="set" value="Veteran" field="annotation" scope="parent" affects="self.entries.recursive.model.profiles.Model" join=""/>
-            <modifier type="increment" value="1" field="453a-8ce6-f448-bb37" scope="model-or-unit" affects="self.entries.recursive.profiles.Model"/>
-            <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="model-or-unit" affects="self.entries.recursive.profiles.Model"/>
           </modifiers>
           <selectionEntryGroups>
             <selectionEntryGroup name="Stat Modifications" id="0e0c-b104-f2c3-5b5a" hidden="false">
               <entryLinks>
-                <entryLink import="true" name="+1 Move" hidden="false" id="1d6b-4f2f-df0e-fd97" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
-                <entryLink import="true" name="+1 Fight" hidden="false" id="0ef0-e7af-d5cc-84d2" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
-                <entryLink import="true" name="+1 Shoot" hidden="false" id="ce6e-9a98-87a6-4044" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+                <entryLink import="true" name="+1 Move" hidden="false" id="1d6b-4f2f-df0e-fd97" type="selectionEntry" targetId="94f8-c306-6bda-9e91">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b701-92d0-4a22-f8c1"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="+1 Fight" hidden="false" id="0ef0-e7af-d5cc-84d2" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b8c-e8cf-ffcd-6ad6"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="14e9-382f-a1b3-49ad"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="+1 Shoot" hidden="false" id="ce6e-9a98-87a6-4044" type="selectionEntry" targetId="b709-903e-3383-de0e">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b72-b214-1edd-9824"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="+1 Health" hidden="false" id="5600-b502-8df4-8a3c" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4e60-c5eb-d0eb-d5dc"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b27-5c2a-9fa1-b745"/>
+                  </constraints>
+                </entryLink>
               </entryLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-min"/>
@@ -2971,6 +2959,13 @@
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Captain" id="88d4-7dc0-a295-be01" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087">
+              <modifiers>
+                <modifier type="set" value="Veteran" field="annotation"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <modifiers>
@@ -2996,8 +2991,48 @@
         <entryLink import="true" name="+1 Shoot" hidden="false" id="5539-68a0-3705-6c9d" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
       </entryLinks>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-max"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile name="Captain" typeId="e0cd-0aa7-dba3-2af3" typeName="Model" hidden="false" id="25c8-b3e0-492c-b087">
+      <characteristics>
+        <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+        <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+        <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+        <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+        <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+        <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="94f8-c306-6bda-9e91" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="e32a-b55b-e9a6-7c82" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="d603-9472-1d68-663e">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="b709-903e-3383-de0e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="453a-8ce6-f448-bb37">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ae23-fd2c-bb7a-80ec" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="cd10-7835-de9f-ba64">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="c802-dc93-1535-ef60" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+    </profile>
+  </sharedProfiles>
 </catalogue>
