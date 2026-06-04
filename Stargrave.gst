@@ -1134,7 +1134,6 @@ This power can be used Out of Game (B), in which case the activating figure star
               <modifiers>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                     <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
@@ -1427,7 +1426,7 @@ Immediately cancels all effects of one ongoing Line of Sight power. It has no ef
               <modifiers>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
@@ -1623,11 +1622,6 @@ Select one robot in line of sight. That robot must make an immediate Will Roll (
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Coordinated Fire" hidden="false" id="1df1-5e99-6d2e-a6b6" collective="false">
-      <comment>Activation: 10 / Strain: 0 / Line of Sight
-The target member of the crew receives +1 Shoot for
-the duration of the game. This may not take a figure
-above +5 Shoot. A figure may only benefit from one
-Coordinated Fire Power at a time.</comment>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a112-978a-6f2e-7ab0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
       </constraints>
@@ -1648,7 +1642,7 @@ Coordinated Fire Power at a time.</comment>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -2077,8 +2071,8 @@ If targeted against a non-robot figure, all firearms carried by that figure imme
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1795-c4e8-6ca2-380b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2164,8 +2158,8 @@ make an immediate Fight Roll (TN16). If it fails, the activator may move the tar
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8e49-f5d3-e9cd-c200" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2583,8 +2577,8 @@ If successfully activated, the figure may attempt to use one of their other powe
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1795-c4e8-6ca2-380b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2913,8 +2907,8 @@ The activator regains up to 3 points of lost Health.</description>
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="9d84-3333-57c7-92ea" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -3163,7 +3157,7 @@ The target of this power must make an immediate Will Roll (TN16). If it fails, i
               <modifiers>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
