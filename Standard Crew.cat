@@ -3011,9 +3011,6 @@
               </modifiers>
             </infoLink>
           </infoLinks>
-          <categoryLinks>
-            <categoryLink name="Core Veteran" hidden="false" id="a939-28d0-41cb-d1d6" targetId="1510-fec4-0334-8026" primary="true"/>
-          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <entryLinks>
@@ -3046,7 +3043,7 @@
             </infoLink>
           </infoLinks>
           <categoryLinks>
-            <categoryLink name="Core Tekker" hidden="false" id="51fd-7363-bfcb-9f8a" targetId="8702-3db8-4e88-faf8" primary="true"/>
+            <categoryLink name="Core Tekker" hidden="false" id="6f89-7c56-5739-68d3" targetId="8702-3db8-4e88-faf8" primary="false"/>
           </categoryLinks>
         </selectionEntry>
       </selectionEntries>
