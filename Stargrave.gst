@@ -48,6 +48,7 @@
         <characteristicType id="1f90-ce6b-c67a-92fd" name="Activation"/>
         <characteristicType id="c696-f8c0-ecd7-2a79" name="Strain"/>
         <characteristicType id="7838-c665-ec7e-a018" name="Note"/>
+        <characteristicType name="Description" id="0698-eb9a-16b4-b99d"/>
       </characteristicTypes>
     </profileType>
     <profileType id="e4aa-fc26-645f-e592" name="Attribute">
@@ -961,6 +962,7 @@
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1007,6 +1009,7 @@
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1047,6 +1050,7 @@ This figure immediately gains an additional action during this activation, and a
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">The target figure gains the Levitate attribute (page 156) for the rest of the game.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1087,6 +1091,7 @@ The target figure gains the Levitate attribute (page 156) for the rest of the ga
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1128,6 +1133,7 @@ This power can be used Out of Game (B), in which case the activating figure star
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1169,6 +1175,7 @@ Alternatively, one standard (not Advanced Technology) pistol, carbine, or shotgu
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1209,6 +1216,7 @@ This power may only be used against a soldier carrying a loot token. That figure
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1255,6 +1263,7 @@ This power may only be used against a soldier carrying a loot token. That figure
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1295,6 +1304,7 @@ Immediately unlocks one physical-loot counter.</description>
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1335,6 +1345,7 @@ If successful, place one bribe token next to the table and make your opponent aw
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1380,6 +1391,7 @@ No figure may draw line of sight to this figure if it is more than 12” away. I
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1420,6 +1432,7 @@ Immediately cancels all effects of one ongoing Line of Sight power. It has no ef
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1460,6 +1473,7 @@ Select one member of the crew that is in line of sight. That figure now activate
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1500,6 +1514,7 @@ This power may only be used while a figure is in combat. The figure may make one
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game  (A)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1546,6 +1561,7 @@ This power may only be used while a figure is in combat. The figure may make one
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1586,6 +1602,7 @@ This power may only be used against uncontrolled animals. The target animal must
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1631,6 +1648,7 @@ Select one robot in line of sight. That robot must make an immediate Will Roll (
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1671,6 +1689,7 @@ The target member of the crew receives +1 Shoot for the duration of the game. Th
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1717,6 +1736,7 @@ The target member of the crew receives +1 Shoot for the duration of the game. Th
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1757,6 +1777,7 @@ The player may immediately add one robot soldier to their crew for no cost. This
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1797,6 +1818,7 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1842,6 +1864,7 @@ This power may only target a member of the same warband that is carrying a data-
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1887,6 +1910,7 @@ Immediately unlocks one data-loot counter.</description>
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1927,6 +1951,7 @@ This power targets an unlocked data-loot token or a figure carrying such a token
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1967,6 +1992,7 @@ This power may be used against any figure within 12”. The activator may choose
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2012,6 +2038,7 @@ Place a drone next to the activator (see Chapter Six: Bestiary, page 144). This 
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2058,6 +2085,7 @@ If targeted against a non-robot figure, all firearms carried by that figure imme
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2103,6 +2131,7 @@ A small energy shield forms around the user. This shield absorbs the next 3 poin
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2145,6 +2174,7 @@ make an immediate Fight Roll (TN16). If it fails, the activator may move the tar
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2190,6 +2220,7 @@ Place a fortune token either next to the figure or on your crew sheet next to th
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2230,6 +2261,7 @@ This power may be used whenever the crew sells anything. The crew receives 20% m
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2270,6 +2302,7 @@ This power restores up to 5 points of lost Health to a target figure within 6”
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2310,6 +2343,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2356,6 +2390,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2402,6 +2437,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2448,6 +2484,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2489,6 +2526,7 @@ and counts as an uncontrolled figure for the rest of the game. (Armour Interfere
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2529,6 +2567,7 @@ Immediately move one member of the same crew that is in line of sight 6” in an
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2569,6 +2608,7 @@ If successfully activated, the figure may attempt to use one of their other powe
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2614,6 +2654,7 @@ The next time this figure makes a Shooting attack with a carbine, pistol, or sho
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2654,6 +2695,7 @@ The activator should place two flamethrower templates as thought the figure had 
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2694,6 +2736,7 @@ The target figure is surrounded by psychic energy. The next time it is hit with 
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2734,6 +2777,7 @@ The target figure must make a Will Roll (TN16). If it fails, move that figure up
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2774,6 +2818,7 @@ Choose one non-robot member of the crew that has been reduced to 0 Health during
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2819,6 +2864,7 @@ A figure may not make a Power Move when attempting to activate this power. The a
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2859,6 +2905,7 @@ Select one robot in the crew. The robot may be given one of the following enhanc
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2899,6 +2946,7 @@ The activator regains up to 3 points of lost Health.</description>
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2944,6 +2992,7 @@ This power allows the user to select one robot in the same crew that is within l
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B) or Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2984,6 +3033,7 @@ This power may be used on any robot soldier. That robot can always activate in t
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3024,6 +3074,7 @@ This power restores up to 5 points of lost Health to a target robot within 6”.
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3064,6 +3115,7 @@ The activator gains one of the following traits of its choice: Amphibious, Burro
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3110,6 +3162,7 @@ The activator gains one of the following traits of its choice: Amphibious, Burro
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifiers>
             <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
@@ -3151,6 +3204,7 @@ The target of this power must make an immediate Will Roll (TN16). If it fails, i
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3191,6 +3245,7 @@ For the rest of the battle, this figure receives -2 Fight whenever rolling again
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3231,6 +3286,7 @@ The activator may make an immediate grenade or grenade launcher attack as a free
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3271,6 +3327,7 @@ The activator may select one of the following stat increases: +1 Move, +1 Fight,
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3311,6 +3368,7 @@ The figure immediately grows a set of indestructible claws. These count as a han
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3351,6 +3409,7 @@ The activator may select up to two members of their crew, including itself. All 
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3391,6 +3450,7 @@ May target one member of the same crew that is within Line of Sight and 12” fr
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3431,6 +3491,7 @@ A figure must be carrying a hand weapon in order to use this power. This hand we
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3517,6 +3578,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3560,6 +3622,7 @@ This figure immediately gains an additional action during this activation, and a
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3600,6 +3663,7 @@ The target figure gains the Levitate attribute (page 156) for the rest of the ga
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3641,6 +3705,7 @@ This power can be used Out of Game (B), in which case the activating figure star
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3682,6 +3747,7 @@ Alternatively, one standard (not Advanced Technology) pistol, carbine, or shotgu
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3722,6 +3788,7 @@ This power may only be used against a soldier carrying a loot token. That figure
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3762,6 +3829,7 @@ Immediately unlocks one physical-loot counter.</description>
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3807,6 +3875,7 @@ If successful, place one bribe token next to the table and make your opponent aw
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3847,6 +3916,7 @@ No figure may draw line of sight to this figure if it is more than 12” away. I
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3887,6 +3957,7 @@ Immediately cancels all effects of one ongoing Line of Sight power. It has no ef
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3927,6 +3998,7 @@ Select one member of the crew that is in line of sight. That figure now activate
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3967,6 +4039,7 @@ This power may only be used while a figure is in combat. The figure may make one
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4012,6 +4085,7 @@ This power may only be used against uncontrolled animals. The target animal must
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4057,6 +4131,7 @@ Coordinated Fire Power at a time.</comment>
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4097,6 +4172,7 @@ The target member of the crew receives +1 Shoot for the duration of the game. Th
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4137,6 +4213,7 @@ The player may immediately add one robot soldier to their crew for no cost. This
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4182,6 +4259,7 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4227,6 +4305,7 @@ This power may only target a member of the same warband that is carrying a data-
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4267,6 +4346,7 @@ Immediately unlocks one data-loot counter.</description>
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4307,6 +4387,7 @@ This power targets an unlocked data-loot token or a figure carrying such a token
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4352,6 +4433,7 @@ This power may be used against any figure within 12”. The activator may choose
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4397,6 +4479,7 @@ Place a drone next to the activator (see Chapter Six: Bestiary, page 144). This 
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4443,6 +4526,7 @@ If targeted against a non-robot figure, all firearms carried by that figure imme
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4483,6 +4567,7 @@ A small energy shield forms around the user. This shield absorbs the next 3 poin
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4530,6 +4615,7 @@ make an immediate Fight Roll (TN16). If it fails, the activator may move the tar
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4570,6 +4656,7 @@ Place a fortune token either next to the figure or on your crew sheet next to th
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4610,6 +4697,7 @@ This power may be used whenever the crew sells anything. The crew receives 20% m
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4650,6 +4738,7 @@ This power restores up to 5 points of lost Health to a target figure within 6”
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4690,6 +4779,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4731,6 +4821,7 @@ and counts as an uncontrolled figure for the rest of the game. (Armour Interfere
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4771,6 +4862,7 @@ Immediately move one member of the same crew that is in line of sight 6” in an
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4816,6 +4908,7 @@ If successfully activated, the figure may attempt to use one of their other powe
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4856,6 +4949,7 @@ The next time this figure makes a Shooting attack with a carbine, pistol, or sho
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4896,6 +4990,7 @@ The activator should place two flamethrower templates as thought the figure had 
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4936,6 +5031,7 @@ The target figure must make a Will Roll (TN16). If it fails, move that figure up
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -4976,6 +5072,7 @@ Choose one non-robot member of the crew that has been reduced to 0 Health during
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5016,6 +5113,7 @@ The target figure is surrounded by psychic energy. The next time it is hit with 
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5056,6 +5154,7 @@ The activator regains up to 3 points of lost Health.</description>
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B) or Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5101,6 +5200,7 @@ This power may be used on any robot soldier. That robot can always activate in t
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5141,6 +5241,7 @@ This power allows the user to select one robot in the same crew that is within l
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5181,6 +5282,7 @@ This power restores up to 5 points of lost Health to a target robot within 6”.
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only or Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5226,6 +5328,7 @@ The activator gains one of the following traits of its choice: Amphibious, Burro
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5266,6 +5369,7 @@ A figure may not make a Power Move when attempting to activate this power. The a
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">14</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5307,6 +5411,7 @@ Select one robot in the crew. The robot may be given one of the following enhanc
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5347,6 +5452,7 @@ The target of this power must make an immediate Will Roll (TN16). If it fails, i
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5387,6 +5493,7 @@ For the rest of the battle, this figure receives -2 Fight whenever rolling again
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5427,6 +5534,7 @@ The activator may make an immediate grenade or grenade launcher attack as a free
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5467,6 +5575,7 @@ The activator may select one of the following stat increases: +1 Move, +1 Fight,
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5507,6 +5616,7 @@ The figure immediately grows a set of indestructible claws. These count as a han
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5547,6 +5657,7 @@ The activator may select up to two members of their crew, including itself. All 
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5587,6 +5698,7 @@ May target one member of the same crew that is within Line of Sight and 12” fr
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5627,6 +5739,7 @@ A figure must be carrying a hand weapon in order to use this power. This hand we
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5667,6 +5780,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5706,6 +5820,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5745,6 +5860,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game  (A)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5784,6 +5900,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5823,6 +5940,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5862,6 +5980,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5901,6 +6020,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
@@ -5940,6 +6060,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
                 <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
                 <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+                <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
               </characteristics>
             </profile>
           </profiles>
