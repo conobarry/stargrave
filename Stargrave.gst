@@ -6246,13 +6246,6 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <infoLinks>
-            <infoLink name="Captain" id="88d4-7dc0-a295-be01" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087">
-              <modifiers>
-                <modifier type="set" value="Veteran" field="annotation"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <entryLinks>
@@ -6277,13 +6270,6 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <infoLinks>
-            <infoLink name="Captain" id="7d99-7b43-895d-bbf8" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087">
-              <modifiers>
-                <modifier type="set" value="Tekker" field="annotation"/>
-              </modifiers>
-            </infoLink>
-          </infoLinks>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -6501,7 +6487,6 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
             <repeat value="1" repeats="1" field="selections" scope="parent" childId="c802-dc93-1535-ef60" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
           </repeats>
         </modifier>
-        <modifier type="set" value="true" field="hidden"/>
         <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
           <conditions>
             <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -6521,6 +6506,94 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
           <modifiers>
             <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
             <modifier type="decrement" value="1" field="dc65-e78a-d390-d9d5"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <comment>Annotation</comment>
+          <modifiers>
+            <modifier type="set" value="Veteran" field="annotation">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Tekker" field="annotation">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </profile>
+    <profile name="First Mate" typeId="e0cd-0aa7-dba3-2af3" typeName="Model" hidden="false" id="5a15-3758-dd81-60a2">
+      <characteristics>
+        <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+        <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+        <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+        <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+        <characteristic name="W" typeId="cd10-7835-de9f-ba64">+2</characteristic>
+        <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="94f8-c306-6bda-9e91" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="e32a-b55b-e9a6-7c82" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="d603-9472-1d68-663e">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="b709-903e-3383-de0e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="453a-8ce6-f448-bb37">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ae23-fd2c-bb7a-80ec" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="cd10-7835-de9f-ba64">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="c802-dc93-1535-ef60" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="4" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+          <modifiers>
+            <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
+            <modifier type="decrement" value="1" field="dc65-e78a-d390-d9d5"/>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup type="and">
+          <comment>Annotation</comment>
+          <modifiers>
+            <modifier type="set" value="Veteran" field="annotation">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="Tekker" field="annotation">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>

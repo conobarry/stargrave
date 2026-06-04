@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="26" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
-    <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="a7eb-eba5-0242-cc05" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -115,7 +115,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4441-f05c-6eb0-22da" name="Veteran" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4441-f05c-6eb0-22da" name="Veteran" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="3260-fbd6-47f3-9fa3" name="Veteran" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -220,7 +220,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="fc64-9d1d-1a02-4051" name="Tekker" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="fc64-9d1d-1a02-4051" name="Tekker" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="1073-6e88-3f73-16f5" name="Tekker" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -348,7 +348,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="35b5-2789-88be-ffd1" name="Psionicist" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="35b5-2789-88be-ffd1" name="Psionicist" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="4378-38f5-66e3-dd09" name="Psionicist" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -453,7 +453,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7e2b-7422-9372-bcc3" name="Robotics Expert" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7e2b-7422-9372-bcc3" name="Robotics Expert" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="6cf9-84aa-b2e5-be2a" name="Robotics Expert" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -581,7 +581,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="84fc-0ae6-ae73-c028" name="Rogue" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="84fc-0ae6-ae73-c028" name="Rogue" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="99f9-5c06-adde-1b85" name="Rogue" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -695,7 +695,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="9a57-b0f7-874c-8fff" name="Biomorph" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -809,7 +809,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="9d6d-a32d-7054-364c" name="First Mate Cyborg" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="9d6d-a32d-7054-364c" name="First Mate Cyborg" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="7e26-f81d-4412-601e" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -923,7 +923,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="36d1-0a6b-8a65-fe71" name="Mystic" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="36d1-0a6b-8a65-fe71" name="Mystic" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="c8bf-cae3-4df4-0eeb" name="Mystic" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1028,7 +1028,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="b3fd-a4d7-4d23-f7ce" name="Cyborg" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="b3fd-a4d7-4d23-f7ce" name="Cyborg" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="ed82-eb1a-637b-2306" name="Cyborg" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1142,7 +1142,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="703b-b594-1549-7ce4" name="First Mate Mystic" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="703b-b594-1549-7ce4" name="First Mate Mystic" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="dfcb-8803-d268-17f8" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1247,7 +1247,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="dd7b-042e-4d07-7f8e" name="First Mate Psionicist" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="dd7b-042e-4d07-7f8e" name="First Mate Psionicist" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="ab52-c63b-2c91-c7c6" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1352,7 +1352,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7caf-92d2-2c83-f857" name="First Mate Robotics Expert" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7caf-92d2-2c83-f857" name="First Mate Robotics Expert" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="553e-1f1f-f558-2dfc" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1480,7 +1480,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6199-8f8e-c0fe-38ea" name="First Mate Rogue" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="6199-8f8e-c0fe-38ea" name="First Mate Rogue" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="2b8a-9027-dc86-d116" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1594,7 +1594,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce96-23fc-e0b7-e3e8" name="First Mate Tekker" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="ce96-23fc-e0b7-e3e8" name="First Mate Tekker" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="89b2-72b5-2079-8d35" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1722,7 +1722,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4bea-2bb5-2b58-e0fd" name="First Mate Veteran" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4bea-2bb5-2b58-e0fd" name="First Mate Veteran" hidden="true" collective="false" import="true" type="model">
       <profiles>
         <profile id="624b-d084-1ec2-a5c0" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1827,7 +1827,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a22-0242-d676-099d" name="Aristocrat" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7a22-0242-d676-099d" name="Aristocrat" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="4bf9-b5fa-06b6-c570" name="Aristocrat" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -1943,7 +1943,7 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ce42-d959-4381-2b64" name="Hunter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="ce42-d959-4381-2b64" name="Hunter" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="b0e7-04b1-d323-4c93" name="Hunter" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -2048,7 +2048,7 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a4f-b533-4675-9384" name="First Mate Aristocrat" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6a4f-b533-4675-9384" name="First Mate Aristocrat" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="7dda-e175-92f4-4448" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -2164,7 +2164,7 @@
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3c45-0df7-b87f-09d0" name="First Mate Hunter" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3c45-0df7-b87f-09d0" name="First Mate Hunter" hidden="true" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f03d-7d18-e4de-f004" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
@@ -2840,51 +2840,6 @@
       </entryLinks>
     </entryLink>
     <entryLink import="true" name="Captain" hidden="false" id="b76a-7608-094b-3578" type="selectionEntry" targetId="7f65-2090-40b1-44c5"/>
-    <entryLink import="true" name="Powers" hidden="false" id="0c0c-e552-5e8d-60df" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
-      <constraints>
-        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="22ac-f225-61df-ed7b" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Power Activation (Captain)" id="f184-72c7-5694-1072" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="increment" value="1" field="22ac-f225-61df-ed7b">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ad43-6a89-3d7e-f266" shared="true" roundUp="false" includeChildSelections="true"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Powers" hidden="false" id="4af2-2943-0890-a4c6" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
-      <constraints>
-        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="0c3a-4960-259d-1044" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Power Activation (Captain)" id="2fd8-eda6-f6b3-a8eb" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="increment" value="1" field="0c3a-4960-259d-1044">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ad43-6a89-3d7e-f266" shared="true" roundUp="false" includeChildSelections="true"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </entryLink>
-    <entryLink import="true" name="Powers" hidden="false" id="9ab4-4c97-ab43-e7e9" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
-      <constraints>
-        <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="322a-ac6a-053b-3778" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
-      </constraints>
-      <infoLinks>
-        <infoLink name="Power Activation (Captain)" id="740b-629e-b389-9966" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
-      </infoLinks>
-      <modifiers>
-        <modifier type="increment" value="1" field="322a-ac6a-053b-3778">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ad43-6a89-3d7e-f266" shared="true" roundUp="false" includeChildSelections="true"/>
-          </repeats>
-        </modifier>
-      </modifiers>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade">
@@ -2917,45 +2872,46 @@
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Background" hidden="false" id="ff3d-b926-a8cf-2005" type="selectionEntryGroup" targetId="5fc6-db78-cf0e-2271" sortIndex="3" collapsible="true"/>
+        <entryLink import="true" name="Level Ups" hidden="false" id="fa4d-f78f-c139-bf8a" type="selectionEntryGroup" targetId="d10b-3771-264b-ea78" sortIndex="2"/>
       </entryLinks>
       <categoryLinks>
         <categoryLink name="Captain" hidden="false" id="f72e-e157-e4b9-95fb" targetId="16bf-5402-ac6a-dab3" primary="true"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false" sortIndex="2" collapsible="true">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Level Up" hidden="false" id="cd75-770b-7103-5216">
-              <selectionEntryGroups>
-                <selectionEntryGroup name="Level Up Options" id="b21e-0a99-2047-eaeb" hidden="false" flatten="true">
-                  <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26" collapsible="true">
-                      <entryLinks>
-                        <entryLink import="true" name="Stat Modification" hidden="false" id="9d40-dc31-27ed-d700" type="selectionEntryGroup" targetId="7828-4591-91c5-3c80" collapsible="true"/>
-                      </entryLinks>
-                    </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
-                    <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266">
-                      <entryLinks>
-                        <entryLink import="true" name="Powers" hidden="false" id="2db5-141a-1b3c-e0b7" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
-                          <constraints>
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c1d-3a42-f9d3-b8ce"/>
-                          </constraints>
-                        </entryLink>
-                      </entryLinks>
-                    </selectionEntry>
-                  </selectionEntries>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-min"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-max"/>
-                  </constraints>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Captain" id="6246-418d-a552-2cd3" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="First Mate" hidden="false" id="a3d0-23dd-cf1b-dc74">
+      <entryLinks>
+        <entryLink import="true" name="Level Ups" hidden="false" id="354f-050c-af21-3a91" type="selectionEntryGroup" targetId="d10b-3771-264b-ea78" sortIndex="2"/>
+        <entryLink import="true" name="Level" hidden="false" id="6299-84c5-bf08-3e3a" type="selectionEntry" targetId="4cd1-ff48-5eaf-e868" sortIndex="1"/>
+        <entryLink import="true" name="Background" hidden="false" id="00f3-f180-0eb6-d0bb" type="selectionEntryGroup" targetId="5fc6-db78-cf0e-2271" sortIndex="3"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="acdd-e18a-1ace-9f6b" type="selectionEntryGroup" targetId="270a-a5c0-3695-1fe4" sortIndex="4">
+          <constraints>
+            <constraint type="max" value="5" field="ef24-ff59-caa4-b0e8" scope="parent" shared="true" id="dc98-4b67-17da-05e5" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+        </entryLink>
+        <entryLink import="true" name="Powers" hidden="false" id="74f3-d148-b71b-bcf6" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4" sortIndex="5">
+          <constraints>
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="e70b-76d0-b4b4-df99" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Power Activation (First Mate)" id="2e3c-58d6-5de3-2abc" hidden="false" targetId="6819-fdeb-c82b-4b42" type="rule"/>
+          </infoLinks>
+          <modifiers>
+            <modifier type="increment" value="1" field="e70b-76d0-b4b4-df99">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ad43-6a89-3d7e-f266" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="First Mate" hidden="false" id="4fff-732a-2f5a-c752" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="First Mate" id="a268-2c17-edfa-ef2f" hidden="false" type="profile" targetId="5a15-3758-dd81-60a2"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2989,6 +2945,37 @@
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-min"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-max"/>
       </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false" sortIndex="" collapsible="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Level Up" hidden="false" id="cd75-770b-7103-5216">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Level Up Options" id="b21e-0a99-2047-eaeb" hidden="false" flatten="true">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Stat Modification" hidden="false" id="9d40-dc31-27ed-d700" type="selectionEntryGroup" targetId="7828-4591-91c5-3c80" collapsible="true"/>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
+                <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266">
+                  <entryLinks>
+                    <entryLink import="true" name="Powers" hidden="false" id="2db5-141a-1b3c-e0b7" type="selectionEntryGroup" targetId="4c5e-ee64-1bd1-1ef4">
+                      <constraints>
+                        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c1d-3a42-f9d3-b8ce"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
