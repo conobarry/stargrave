@@ -1053,7 +1053,7 @@ This figure immediately gains an additional action during this activation, and a
               <modifiers>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
@@ -1805,8 +1805,8 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8e49-f5d3-e9cd-c200" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1855,8 +1855,8 @@ This power may only target a member of the same warband that is carrying a data-
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1795-c4e8-6ca2-380b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -1898,7 +1898,7 @@ Immediately unlocks one data-loot counter.</description>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1975,8 +1975,8 @@ This power may be used against any figure within 12”. The activator may choose
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="9d84-3333-57c7-92ea" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2025,8 +2025,8 @@ Place a drone next to the activator (see Chapter Six: Bestiary, page 144). This 
                   <conditionGroups>
                     <conditionGroup type="and">
                       <conditions>
-                        <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
                         <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="9d84-3333-57c7-92ea" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                        <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -2276,7 +2276,7 @@ This power restores up to 5 points of lost Health to a target figure within 6”
               <modifiers>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
@@ -3362,7 +3362,7 @@ The activator may select up to two members of their crew, including itself. All 
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="8702-3db8-4e88-faf8" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="967e-4a4f-e975-aedf" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
               </modifiers>
