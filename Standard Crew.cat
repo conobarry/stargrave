@@ -3011,6 +3011,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Core Veteran" hidden="false" id="a939-28d0-41cb-d1d6" targetId="1510-fec4-0334-8026" primary="true"/>
+          </categoryLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <entryLinks>
@@ -3042,6 +3045,9 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <categoryLinks>
+            <categoryLink name="Core Tekker" hidden="false" id="51fd-7363-bfcb-9f8a" targetId="8702-3db8-4e88-faf8" primary="true"/>
+          </categoryLinks>
         </selectionEntry>
       </selectionEntries>
       <constraints>
@@ -3099,7 +3105,29 @@
             <repeat value="1" repeats="1" field="selections" scope="parent" childId="c802-dc93-1535-ef60" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
           </repeats>
         </modifier>
+        <modifier type="set" value="true" field="hidden"/>
+        <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="4" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+          </conditions>
+          <modifiers>
+            <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
+            <modifier type="decrement" value="1" field="dc65-e78a-d390-d9d5"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </profile>
   </sharedProfiles>
 </catalogue>
