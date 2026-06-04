@@ -6222,14 +6222,14 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
           <entryLinks>
             <entryLink import="true" name="+1 Fight" hidden="false" id="42e5-cce1-5042-7180" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7cf-0403-5327-8554-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7cf-0403-5327-8554-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="d7cf-0403-5327-8554"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="2ea9-5325-2c7d-33ce"/>
               </constraints>
             </entryLink>
             <entryLink import="true" name="+1 Health" hidden="false" id="f54a-abc9-af40-6f4f" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3aef-b917-f61d-9554-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3aef-b917-f61d-9554-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="3aef-b917-f61d-9554-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3aef-b917-f61d-9554-max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -6241,8 +6241,8 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <entryLink import="true" name="+1 Shoot" hidden="false" id="ce6e-9a98-87a6-4044" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
               </entryLinks>
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-min"/>
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-max"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="ac3b-b49c-bc80-3e79-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ac3b-b49c-bc80-3e79-max"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6251,8 +6251,8 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
           <entryLinks>
             <entryLink import="true" name="+1 Will" hidden="false" id="a60d-addb-d42e-6e9f" type="selectionEntry" targetId="c802-dc93-1535-ef60">
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3805-de65-9f03-9691-min"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3805-de65-9f03-9691-max"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="3805-de65-9f03-9691"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="3134-47e8-cad8-dbb2"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -6265,8 +6265,8 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
                 <entryLink import="true" name="+1 Health" hidden="false" id="1201-ddb2-c0c4-ad82" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82"/>
               </entryLinks>
               <constraints>
-                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3a4a-1ee4-0808-9398-min"/>
-                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3a4a-1ee4-0808-9398-max"/>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="false" id="3a4a-1ee4-0808-9398-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="false" id="3a4a-1ee4-0808-9398-max"/>
               </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
