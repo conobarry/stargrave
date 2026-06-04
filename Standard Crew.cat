@@ -2954,6 +2954,9 @@
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <infoLinks>
+        <infoLink name="Captain" id="6246-418d-a552-2cd3" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087"/>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
