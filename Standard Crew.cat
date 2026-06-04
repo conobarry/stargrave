@@ -2912,26 +2912,22 @@
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false">
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Level Up" hidden="false" id="89fd-2bdb-c73b-e444">
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Level Up" id="b21e-0a99-2047-eaeb" hidden="false">
               <selectionEntries>
-                <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
-                <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26">
+                <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26" collapsible="true">
                   <entryLinks>
-                    <entryLink import="true" name="+1 Fight" hidden="false" id="744e-f410-cc04-a09c" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
-                    <entryLink import="true" name="+1 Move" hidden="false" id="605a-5808-abb5-55ec" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
-                    <entryLink import="true" name="+1 Shoot" hidden="false" id="8a12-2e86-ab8b-0686" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
-                    <entryLink import="true" name="+1 Health" hidden="false" id="0765-f1f2-18fc-4962" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82"/>
-                    <entryLink import="true" name="+1 Will" hidden="false" id="884e-8e75-130c-32a5" type="selectionEntry" targetId="c802-dc93-1535-ef60"/>
+                    <entryLink import="true" name="Stat Modification" hidden="false" id="9d40-dc31-27ed-d700" type="selectionEntryGroup" targetId="7828-4591-91c5-3c80" flatten="true"/>
                   </entryLinks>
-                  <constraints>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0175-ddb0-38a4-9b1d"/>
-                  </constraints>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
                 <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266"/>
               </selectionEntries>
-            </selectionEntry>
-          </selectionEntries>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="29ca-a397-1781-f2b5"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -2989,6 +2985,18 @@
       <constraints>
         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-min"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-max"/>
+      </constraints>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Stat Modification" id="7828-4591-91c5-3c80" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="+1 Fight" hidden="false" id="4cc2-6a27-660d-d302" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
+        <entryLink import="true" name="+1 Health" hidden="false" id="85c6-f3de-ec9f-23d6" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82"/>
+        <entryLink import="true" name="+1 Move" hidden="false" id="5bd9-fb5e-d857-e12a" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
+        <entryLink import="true" name="+1 Will" hidden="false" id="8c1e-22fd-6f6b-6490" type="selectionEntry" targetId="c802-dc93-1535-ef60"/>
+        <entryLink import="true" name="+1 Shoot" hidden="false" id="5539-68a0-3705-6c9d" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed"/>
       </constraints>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
