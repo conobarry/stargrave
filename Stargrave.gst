@@ -1018,7 +1018,7 @@
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
-                    <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="6939-3fb3-687a-2a0b" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="notInstanceOf" value="1" field="selections" scope="ancestor" childId="6939-3fb3-687a-2a0b" shared="true" includeChildSelections="false"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -1032,9 +1032,6 @@
 This figure immediately gains an additional action during this activation, and an additional action in their next activation as well.</description>
         </rule>
       </rules>
-      <entryLinks>
-        <entryLink import="true" name="Core Power" hidden="false" id="e331-8e6b-d949-328f" collective="false" targetId="7d86-9352-f297-367e" type="selectionEntry"/>
-      </entryLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0"/>
@@ -1138,6 +1135,7 @@ This power can be used Out of Game (B), in which case the activating figure star
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
                   <conditions>
                     <condition type="notInstanceOf" value="0" field="selections" scope="ancestor" childId="1510-fec4-0334-8026" shared="true" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
+                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="5bc6-01f7-8543-dfd5" shared="true" includeChildSelections="true"/>
                   </conditions>
                 </modifier>
                 <modifier type="increment" value="2" field="1f90-ce6b-c67a-92fd">
@@ -6224,6 +6222,81 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="9599-d09f-518c-8b2c"/>
       </selectionEntries>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Background" id="5fc6-db78-cf0e-2271" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5">
+          <entryLinks>
+            <entryLink import="true" name="+1 Fight" hidden="false" id="42e5-cce1-5042-7180" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d7cf-0403-5327-8554-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d7cf-0403-5327-8554-max"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="+1 Health" hidden="false" id="f54a-abc9-af40-6f4f" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3aef-b917-f61d-9554-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3aef-b917-f61d-9554-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Stat Modifications" id="0e0c-b104-f2c3-5b5a" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="+1 Move" hidden="false" id="1d6b-4f2f-df0e-fd97" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
+                <entryLink import="true" name="+1 Fight" hidden="false" id="0ef0-e7af-d5cc-84d2" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
+                <entryLink import="true" name="+1 Shoot" hidden="false" id="ce6e-9a98-87a6-4044" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Captain" id="88d4-7dc0-a295-be01" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087">
+              <modifiers>
+                <modifier type="set" value="Veteran" field="annotation"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
+          <entryLinks>
+            <entryLink import="true" name="+1 Will" hidden="false" id="a60d-addb-d42e-6e9f" type="selectionEntry" targetId="c802-dc93-1535-ef60">
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3805-de65-9f03-9691-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3805-de65-9f03-9691-max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Stat Modifications" id="d2c2-ceb6-025f-f67c" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="+1 Move" hidden="false" id="4b1c-d77c-011a-836a" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
+                <entryLink import="true" name="+1 Fight" hidden="false" id="d67a-cd1d-fc19-e4f5" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
+                <entryLink import="true" name="+1 Shoot" hidden="false" id="2c09-7b0f-7f63-3f60" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+                <entryLink import="true" name="+1 Health" hidden="false" id="1201-ddb2-c0c4-ad82" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="3a4a-1ee4-0808-9398-min"/>
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="3a4a-1ee4-0808-9398-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <infoLinks>
+            <infoLink name="Captain" id="7d99-7b43-895d-bbf8" hidden="false" type="profile" targetId="25c8-b3e0-492c-b087">
+              <modifiers>
+                <modifier type="set" value="Tekker" field="annotation"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-min"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b2ed-3919-01d3-ccb4-max"/>
+      </constraints>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="b036-a7e7-db3f-d23b" name="Power Activation (Captain)" publicationId="205d-6ed1-3ffa-ebbb" page="19" hidden="false">
@@ -6398,6 +6471,65 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
       <characteristics>
         <characteristic name="Description" typeId="7001-0d96-d790-3547">A natural creature with less-than-human intelligence. Animals cannot interact with loot tokens and have no gear slots.</characteristic>
       </characteristics>
+    </profile>
+    <profile name="Captain" typeId="e0cd-0aa7-dba3-2af3" typeName="Model" hidden="false" id="25c8-b3e0-492c-b087">
+      <characteristics>
+        <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+        <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+        <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+        <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+        <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+        <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+      </characteristics>
+      <modifiers>
+        <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="94f8-c306-6bda-9e91" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="e32a-b55b-e9a6-7c82" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="d603-9472-1d68-663e">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="b709-903e-3383-de0e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="453a-8ce6-f448-bb37">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="ae23-fd2c-bb7a-80ec" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="increment" value="1" field="cd10-7835-de9f-ba64">
+          <repeats>
+            <repeat value="1" repeats="1" field="selections" scope="parent" childId="c802-dc93-1535-ef60" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+          </repeats>
+        </modifier>
+        <modifier type="set" value="true" field="hidden"/>
+        <modifier type="increment" value="1" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="2c5f-174f-fa1f-26c7" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" value="4" field="d1a5-3245-2f90-1ffe">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="ea4f-6372-4af1-e30b" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <conditions>
+            <condition type="greaterThan" value="0" field="selections" scope="parent" childId="b824-fc04-4c55-b49e" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+          </conditions>
+          <modifiers>
+            <modifier type="increment" value="2" field="d1a5-3245-2f90-1ffe"/>
+            <modifier type="decrement" value="1" field="dc65-e78a-d390-d9d5"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </profile>
   </sharedProfiles>
   <entryLinks>
