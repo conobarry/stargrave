@@ -3490,6 +3490,11 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="535b-9e29-eeda-f917" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="ae23-fd2c-bb7a-80ec"/>
+    <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="e32a-b55b-e9a6-7c82"/>
+    <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="94f8-c306-6bda-9e91"/>
+    <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="b709-903e-3383-de0e"/>
+    <selectionEntry type="upgrade" import="true" name="+1 Will" hidden="false" id="c802-dc93-1535-ef60"/>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="7753-4141-f613-ae54" name="Powers" hidden="false" collective="false" import="true">
@@ -6215,19 +6220,8 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="+1 Shoot" hidden="false" id="3a40-f9fa-c293-cfd7"/>
         <selectionEntry type="upgrade" import="true" name="+1 Fight" hidden="false" id="8381-6b9b-a3ec-683c"/>
-        <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="dcd3-897f-c3e3-b3a8">
-          <modifiers>
-            <modifier type="set" value="11" field="508a-47c0-adf3-10ad">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="8749-37ea-6f9e-0824" shared="true"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="508a-47c0-adf3-10ad"/>
-          </constraints>
-        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="+1 Move" hidden="false" id="00a0-d3b2-9887-8b87"/>
+        <selectionEntry type="upgrade" import="true" name="+1 Health" hidden="false" id="9599-d09f-518c-8b2c"/>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

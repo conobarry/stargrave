@@ -2850,7 +2850,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Captain" hidden="false" id="7f65-2090-40b1-44c5">
       <entryLinks>
-        <entryLink import="true" name="Level" hidden="false" id="c89b-46d4-bb97-44b9" collective="false" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
+        <entryLink import="true" name="Level" hidden="false" id="c89b-46d4-bb97-44b9" collective="false" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry" defaultAmount="15"/>
         <entryLink import="true" name="Equipment" hidden="false" id="6c02-531d-1771-099d" collective="false" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
           <constraints>
             <constraint type="max" value="6" field="ef24-ff59-caa4-b0e8" scope="parent" shared="true" id="5425-a44b-a643-2089" percentValue="false" includeChildSelections="true" includeChildForces="false"/>
@@ -2863,6 +2863,13 @@
           <infoLinks>
             <infoLink name="Power Activation (Captain)" id="f532-12ee-3df5-f358" hidden="false" targetId="b036-a7e7-db3f-d23b" type="rule"/>
           </infoLinks>
+          <modifiers>
+            <modifier type="increment" value="1" field="a260-d1c4-4fc0-9940">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ad43-6a89-3d7e-f266" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
         </entryLink>
         <entryLink import="true" name="Background" hidden="false" id="ff3d-b926-a8cf-2005" type="selectionEntryGroup" targetId="5fc6-db78-cf0e-2271"/>
       </entryLinks>
@@ -2879,12 +2886,22 @@
           <modifiers>
             <modifier type="increment" value="1" field="dc65-e78a-d390-d9d5">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="00a0-d3b2-9887-8b87" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="94f8-c306-6bda-9e91" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
             <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c">
               <repeats>
-                <repeat value="1" repeats="1" field="selections" scope="parent" childId="dcd3-897f-c3e3-b3a8" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="e32a-b55b-e9a6-7c82" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="d603-9472-1d68-663e">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="b709-903e-3383-de0e" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="increment" value="1" field="453a-8ce6-f448-bb37">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="parent" childId="ae23-fd2c-bb7a-80ec" shared="true" roundUp="false" percentValue="false" includeChildSelections="true"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -2893,6 +2910,30 @@
       <categoryLinks>
         <categoryLink name="Captain" hidden="false" id="f72e-e157-e4b9-95fb" targetId="16bf-5402-ac6a-dab3" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Level Up" hidden="false" id="89fd-2bdb-c73b-e444">
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Lower an Activation Number" hidden="false" id="f551-88a9-500b-4bee"/>
+                <selectionEntry type="upgrade" import="true" name="Improve a Stat" hidden="false" id="54a4-1c67-acc5-2e26">
+                  <entryLinks>
+                    <entryLink import="true" name="+1 Fight" hidden="false" id="744e-f410-cc04-a09c" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
+                    <entryLink import="true" name="+1 Move" hidden="false" id="605a-5808-abb5-55ec" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
+                    <entryLink import="true" name="+1 Shoot" hidden="false" id="8a12-2e86-ab8b-0686" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+                    <entryLink import="true" name="+1 Health" hidden="false" id="0765-f1f2-18fc-4962" type="selectionEntry" targetId="e32a-b55b-e9a6-7c82"/>
+                    <entryLink import="true" name="+1 Will" hidden="false" id="884e-8e75-130c-32a5" type="selectionEntry" targetId="c802-dc93-1535-ef60"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0175-ddb0-38a4-9b1d"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="New Power" hidden="false" id="ad43-6a89-3d7e-f266"/>
+              </selectionEntries>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -2915,7 +2956,26 @@
     </selectionEntryGroup>
     <selectionEntryGroup name="Background" id="5fc6-db78-cf0e-2271" hidden="false">
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5"/>
+        <selectionEntry type="upgrade" import="true" name="Veteran" hidden="false" id="5bc6-01f7-8543-dfd5">
+          <modifiers>
+            <modifier type="set" value="Veteran" field="annotation" scope="parent" affects="self.entries.recursive.model.profiles.Model" join=""/>
+            <modifier type="increment" value="1" field="453a-8ce6-f448-bb37" scope="model-or-unit" affects="self.entries.recursive.profiles.Model"/>
+            <modifier type="increment" value="1" field="c25e-02c0-2580-ff3c" scope="model-or-unit" affects="self.entries.recursive.profiles.Model"/>
+          </modifiers>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Stat Modifications" id="0e0c-b104-f2c3-5b5a" hidden="false">
+              <entryLinks>
+                <entryLink import="true" name="+1 Move" hidden="false" id="1d6b-4f2f-df0e-fd97" type="selectionEntry" targetId="94f8-c306-6bda-9e91"/>
+                <entryLink import="true" name="+1 Fight" hidden="false" id="0ef0-e7af-d5cc-84d2" type="selectionEntry" targetId="ae23-fd2c-bb7a-80ec"/>
+                <entryLink import="true" name="+1 Shoot" hidden="false" id="ce6e-9a98-87a6-4044" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-min"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ac3b-b49c-bc80-3e79-max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Tekker" hidden="false" id="967e-4a4f-e975-aedf">
           <modifiers>
             <modifier type="set" value="Tekker" field="annotation" scope="parent" affects="self.entries.recursive.model.profiles.Model" join=""/>
