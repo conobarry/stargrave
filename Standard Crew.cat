@@ -673,8 +673,8 @@
         <entryLink import="true" name="+1 Shoot" hidden="false" id="5539-68a0-3705-6c9d" type="selectionEntry" targetId="b709-903e-3383-de0e"/>
       </entryLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-min"/>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed-max"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c1c8-5170-ee66-a3ed"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0beb-42a2-9577-74d0"/>
       </constraints>
     </selectionEntryGroup>
     <selectionEntryGroup name="Level Ups" id="d10b-3771-264b-ea78" hidden="false" sortIndex="" collapsible="true">

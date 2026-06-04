@@ -1009,7 +1009,7 @@
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">2</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">This figure immediately gains an additional action during this activation, and an additional action in their next activation as well.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1133,7 +1133,8 @@ This power can be used Out of Game (B), in which case the activating figure star
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">The crew can field one suit of combat armour without having to pay is normal upkeep cost.
+Alternatively, one standard (not Advanced Technology) pistol, carbine, or shotgun may be given a +1 Damage modifier for the next game only.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1432,7 +1433,7 @@ Immediately cancels all effects of one ongoing Line of Sight power. It has no ef
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">Select one member of the crew that is in line of sight. That figure now activates in the current player’s phase this turn. This power may not be used on a figure that has already activated in this turn.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1648,7 +1649,7 @@ Select one robot in line of sight. That robot must make an immediate Will Roll (
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">The target member of the crew receives +1 Shoot for the duration of the game. This may not take a figure above +5 Shoot. A figure may only benefit from one Coordinated Fire Power at a time.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -1818,7 +1819,7 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">This power may only target a member of the same warband that is carrying a data-loot token. The player may immediately move the data-loot token carried by that figure to another member of the crew, provided both are in line of sight of the activator and within 8” of one another.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2085,7 +2086,7 @@ If targeted against a non-robot figure, all firearms carried by that figure imme
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">A small energy shield forms around the user. This shield absorbs the next 3 points of Damage from any Shooting attack that would injure the activator. Once 3 points of Damage have been absorbed, the power is cancelled.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -2302,7 +2303,7 @@ This power restores up to 5 points of lost Health to a target figure within 6”
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">Creates a holographic wall 6” long and 3” high. No line of sight may be drawn through this wall. Figures may move through the wall as though it is not there. At the end of each turn, after the turn in which the wall is placed, roll a die. On a 1–4 the holograph fails, and the wall is removed.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
@@ -3204,7 +3205,7 @@ The target of this power must make an immediate Will Roll (TN16). If it fails, i
             <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">8</characteristic>
             <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
             <characteristic name="Note" typeId="7838-c665-ec7e-a018">Line of Sight</characteristic>
-            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d"/>
+            <characteristic name="Description" typeId="0698-eb9a-16b4-b99d">For the rest of the battle, this figure receives -2 Fight whenever rolling against a Shooting attack.</characteristic>
           </characteristics>
           <modifierGroups>
             <modifierGroup type="and">
